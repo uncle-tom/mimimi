@@ -1,0 +1,25 @@
+.menu {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: -170px;
+	border-top: 2px solid #ec7171 ;
+    width: 120px;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+.menu li {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px black;
+	margin-top:10px;
+	list-style-type: none;
+}
