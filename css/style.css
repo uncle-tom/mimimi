@@ -47,6 +47,8 @@ body {
 	font-size: 35px;
   color: white;
   text-shadow: 2px 2px 2px black;
+  z-index: 2000;
+  text-decoration: none !important;
 }
 
 .flex {
@@ -147,16 +149,37 @@ body {
   font-size: 15px;
   color: white;
   font-family: monospace;
+  z-index: 2000;
+  text-decoration: none !important;
+}
+
+.github a:hover {
+	color: black;
+}
+
+.github i {
+	font-size: 35px;
 }
 
 .linkedin a {
 	position: absolute;
   bottom: 20px;
-  left: 50px;
+  right: 100px;
   font-size: 15px;
   color: white;
   font-family: monospace;	
+  z-index: 2000;
+  text-decoration: none !important;
 }
+
+.linkedin a:hover {
+	color: black;
+}
+
+.linkedin i {
+	font-size: 35px;
+}
+
 
 
 

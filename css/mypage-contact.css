@@ -1,0 +1,39 @@
+.github-page a {
+	position: relative;
+  font-size: 15px;
+  color: white;
+  font-family: monospace;
+  z-index: 2000;
+  text-decoration: none !important;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.github-page a:hover {
+	color: black;
+}
+
+.github-page i {
+	font-size: 35px;
+}
+
+.linkedin-page a {
+	position: relative;
+  font-size: 15px;
+  color: white;
+  font-family: monospace;	
+  z-index: 2000;
+  text-decoration: none !important;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.linkedin-page a:hover {
+	color: black;
+}
+
+.linkedin-page i {
+	font-size: 35px;
+}
