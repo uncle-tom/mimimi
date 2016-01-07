@@ -10,13 +10,13 @@ $(document).ready(function(){
         loop: true,
     });	
 	function prevButtonMove (){
-		$('.swiper-button-prev.swiper-button-white').animate({"margin-left":"10px"}, function(){
-			$('.swiper-button-prev.swiper-button-white').animate({"margin-left":"-10px"})
+		$('.swiper-button-prev').animate({"margin-left":"10px"}, function(){
+			$('.swiper-button-prev').animate({"margin-left":"-10px"})
 		})
 	}
 	function nextButtonMove (){
-		$('.swiper-button-next.swiper-button-white').animate({"margin-right":"10px"}, function(){
-			$('.swiper-button-next.swiper-button-white').animate({"margin-right":"-10px"})
+		$('.swiper-button-next').animate({"margin-right":"10px"}, function(){
+			$('.swiper-button-next').animate({"margin-right":"-10px"})
 		})
 	}
 
@@ -40,5 +40,20 @@ $(document).ready(function(){
 
 	setInterval(nextButtonMove, 2500);
 	setInterval(prevButtonMove, 2500);
+
+	$('.main-massage').click(function(){
+	$('.bg1').animate({"left":"0"},500);
+	$('.bg2').animate({"left":"40%"},500);
+	$('.massage').delay(400).animate({"top":"20%"}, 500);
+	//$('.pop-click').animate({"opacity":"0"}, 1)
+  console.log('hi')
+})
+
+	$('.btn-massage').click(function(){
+		$('.massage').animate({"top":"100%"}, 500, function(){
+			$('.bg1').animate({"left":"-60%"},500);
+			$('.bg2').animate({"left":"100%"},500);	
+		});
+	})
 });
 
